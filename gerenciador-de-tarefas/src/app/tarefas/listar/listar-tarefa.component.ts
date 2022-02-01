@@ -1,6 +1,7 @@
+import { TarefaConcluidaDirective } from './../shared/tarefa-concluida.directive';
 import { Tarefa } from './../shared/tarefa.model';
 import { TarefaService } from './../shared/tarefa.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-listar-tarefa',
