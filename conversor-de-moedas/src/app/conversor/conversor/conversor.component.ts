@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-conversor',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./conversor.component.css']
 })
 export class ConversorComponent implements OnInit {
+
+  @ViewChild("conversaoForm", { static: true }) conversaoForm: NgForm;
 
   constructor() { }
 
