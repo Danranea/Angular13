@@ -12,19 +12,20 @@ export class MoedaService {
   constructor() { }
 
   private moedasObj = [
-    {"siglas": "AUD", "descricao": "Dólar australiano"},
-    {"siglas": "BGN", "descricao": "Lev búlgaro"},
-    {"siglas": "BRL", "descricao": "Real brasileiro"},
-    {"siglas": "CAD", "descricao": "Dólar canadense"},
-    {"siglas": "CHF", "descricao": "Franco suiço"},
-    {"siglas": "CNY", "descricao": "Yuan Chinês"},
-    {"siglas": "CZK", "descricao": "Coroa República Tcheca"},
-    {"siglas": "DKK", "descricao": "Coroa Dinamarquesa"},
-    {"siglas": "EUR", "descricao": "Euro"},
-    {"siglas": "GBP", "descricao": "Libra Esterlina"},
-    {"siglas": "HKD", "descricao": "Dólar de Hong Kong"},
-    {"siglas": "HRK", "descricao": "Coroa Croácia"},
-    {"siglas": "HUF", "descricao": "Florim Húngaro"}    
+    {"sigla": "AUD", "descricao": "Dólar australiano"},
+    {"sigla": "BGN", "descricao": "Lev búlgaro"},
+    {"sigla": "BRL", "descricao": "Real brasileiro"},
+    {"sigla": "CAD", "descricao": "Dólar canadense"},
+    {"sigla": "CHF", "descricao": "Franco suiço"},
+    {"sigla": "CNY", "descricao": "Yuan Chinês"},
+    {"sigla": "CZK", "descricao": "Coroa República Tcheca"},
+    {"sigla": "DKK", "descricao": "Coroa Dinamarquesa"},
+    {"sigla": "EUR", "descricao": "Euro"},
+    {"sigla": "GBP", "descricao": "Libra Esterlina"},
+    {"sigla": "HKD", "descricao": "Dólar de Hong Kong"},
+    {"sigla": "HRK", "descricao": "Coroa Croácia"},
+    {"sigla": "HUF", "descricao": "Florim Húngaro"},
+    {"sigla": "USD", "descricao": "Dólar Americano"}    
   ]
 
   listarTodas(): Moeda[]{
